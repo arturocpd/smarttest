@@ -237,6 +237,45 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>ASCII_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>ASCII Test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Afghanistan 93</fullName>
+                    <default>false</default>
+                    <label>Afghanistan 93</label>
+                </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Café</fullName>
+                    <default>false</default>
+                    <label>Café</label>
+                </value>
+                <value>
+                    <fullName>Décor</fullName>
+                    <default>false</default>
+                    <label>Décor</label>
+                </value>
+                <value>
+                    <fullName>Lee test Commit</fullName>
+                    <default>false</default>
+                    <label>Lee test Commit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>AccountLookup__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
@@ -740,6 +779,26 @@
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Auto_Resolve_RT</fullName>
+        <active>true</active>
+        <label>Auto Resolve RT</label>
+        <picklistValues>
+            <picklist>ASCII_Test__c</picklist>
+            <values>
+                <fullName>Afghanistan 93</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lee test Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <recordTypes>
         <fullName>Business_Account</fullName>
         <active>true</active>
@@ -1422,6 +1481,21 @@
         <fullName>RT_Nested_Test</fullName>
         <active>true</active>
         <label>RT Nested Test</label>
+        <picklistValues>
+            <picklist>ASCII_Test__c</picklist>
+            <values>
+                <fullName>Afghanistan 93</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lee test Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
