@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>spm_myType101</members>
-        <members>spm_myType101Test</members>
+        <members>ClassToBeTested</members>
+        <members>ClassToBeTested2</members>
+        <members>TestClass1</members>
+        <members>TestClass2</members>
+        <members>TestUpdateAccountLastModifiedDate</members>
         <name>ApexClass</name>
     </types>
-    <version>58.0</version>
+    <types>
+        <members>UpdateAccountLastModifiedDate</members>
+        <name>ApexTrigger</name>
+    </types>
+    <version>59.0</version>
 </Package>
